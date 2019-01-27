@@ -1,0 +1,18 @@
+{
+  "name": "santanders",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "fetch": "node fetch.js"
+  },
+  "author": "Martin Babinec <M@rtinBabinec.cz>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "firebase": "^5.5.5",
+    "node-fetch": "^2.2.0"
+  }
+}
